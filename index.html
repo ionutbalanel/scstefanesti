@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=Home, initial-scale=1.0" />
+    <title>Home - LT „Ștefănești”</title>    
+    <!-- font awesome - https://fontawesome.com/icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <!-- favicon - https://www.flaticon.com/ -->
+    <link rel="icon" href="images/favicon.png" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Sursa - https://www.emailjs.com/ -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js" defer></script>
+    <!-- javascript  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js" defer></script>
+
+    <script src="js/lightbox.js" defer></script>    
+    <script src="js/script.js" defer></script>
+    <script src="js/slider.js" defer></script>    
+  </head>
+  <body>
+
+    <header data-aos="fade-down">
+      <a href="index.html">
+        <img src="images/logo.png" />
+      </a>
+
+      <nav class="navbar" id="navbar">
+        <a href="#despre">Despre noi</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#contacte">Contacte</a>
+        <a href="pages/orar.html">Orar</a>
+        <a href="pages/noutati.html">Noutati</a>
+        <i onclick="mobile()" class="fa fa-bars hamburger" aria-hidden="true"></i>
+      </nav>
+    </header>
+    <section id="intro">
+      <div class="intro-content" data-aos="fade-in" data-aos-delay="400">
+        <!--Creare logo - https://looka.com/ -->
+        <img src="images/logo.png" class="logo" />
+        <h1>IP Liceul Teoretic „Ștefănești”</h1>
+        <h2>Un liceu pentru toti</h2>
+        <a href="#despre" id="despre-btn" class="intro-btn">Despre noi</a>
+        <a href="pages/noutati.html" class="intro-btn">Noutati</a>
+        <a href="pages/orar.html" class="intro-btn">Orar</a>
+      </div>
+      <!-- Sursa - https://www.shapedivider.app/ -->
+      <div class="custom-shape-divider-bottom-1647985849">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <!-- Sursa - https://www.shapedivider.app/ -->
+    </section>
+    <main>
+      <section id="despre">
+        <h1 class="centered">Despre noi</h1>
+        
+        <i class="fas fa-graduation-cap fly1"></i>
+        <i class="fas fa-pencil-alt fly2"></i>
+        <i class="fas fa-book fly3"></i>
+
+        <i class="fas fa-graduation-cap fly4"></i>
+        <i class="fas fa-pencil-alt fly5"></i>
+        <i class="fas fa-book fly6"></i>
+
+        <i class="fas fa-graduation-cap fly7"></i>
+        <i class="fas fa-pencil-alt fly8"></i>
+        <i class="fas fa-book fly9"></i>
+
+        <p class="p-despre">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Necessitatibus neque, quod dolor minima architecto recusandae esse
+          doloremque? Laborum, ipsam ullam accusamus totam voluptates, itaque
+          earum animi voluptatum error cum eos. Lorem, ipsum dolor sit amet
+          consectetur adipisicing elit. Dolores blanditiis eaque consectetur
+          natus voluptatibus hic at recusandae accusantium, sunt, non voluptatum
+          eum perspiciatis animi earum sed eveniet, dolor quasi dolorem!
+        </p>
+        <div class="slideshow">
+          <div class="slide">
+            <div class="slide-text">
+              <i class="fas fa-user-tie"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident animi et,
+              </p>
+            </div>
+            <img src="images/s1.jpeg" />
+          </div>
+          <div class="slide">
+            <div class="slide-text">
+              <i class="fas fa-book"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <img src="images/s2.jpeg" />
+          </div>
+          <div class="slide">
+            <div class="slide-text">
+              <i class="fas fa-shield-alt"></i>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident animi et, fugit est porro veritatis,
+              </p>
+            </div>
+            <img src="images/s3.jpeg" />
+          </div>
+        </div>
+      </section>
+      <section id="galerie" data-aos="fade-in">
+        <h1 class="centered">Galerie</h1>
+
+        <i class="fas fa-graduation-cap fly1"></i>
+        <i class="fas fa-pencil-alt fly2"></i>
+        <i class="fas fa-book fly3"></i>
+
+        <i class="fas fa-graduation-cap fly4"></i>
+        <i class="fas fa-pencil-alt fly5"></i>
+
+        <i class="fas fa-book fly9"></i>
+ 
+        <div class="container-galerie">
+
+            <a data-aos="zoom-in" data-aos-delay="400" href="images/s1.jpeg">
+                <img src="images/s1.jpeg">
+            </a>
+
+            <a data-aos="zoom-in" data-aos-delay="400" href="images/s2.jpeg">
+                <img src="images/s2.jpeg">
+            </a>
+
+            <a data-aos="zoom-in" data-aos-delay="400" href="images/s3.jpeg">
+                <img src="images/s3.jpeg">
+            </a>
+
+            <a data-aos="zoom-in" data-aos-delay="400" href="images/s4.jpeg">
+                <img src="images/s4.jpeg">
+            </a>
+
+            <a data-aos="zoom-in" data-aos-delay="400" href="images/s5.jpeg">
+                <img src="images/s5.jpeg">
+            </a>
+
+            <a data-aos="zoom-in" data-aos-delay="400" href="images/s6.jpeg">
+                <img src="images/s6.jpeg">
+            </a>
+
+        </div>
+
+    </section>
+    <section id="contacte" data-aos="fade-in">
+      <h1 class="centered">Contacte</h1>
+      <div class="row">
+        <div class="col-50 contacte-info">
+          <b><i class="fas fa-phone-alt"></i>&nbsp;:&nbsp;</b><span><a href="tel:+37325049228">+373(250)49-2-28</a></span><br>
+          <b><i class="fas fa-map-marker-alt"></i>&nbsp;:&nbsp;</b><span>s. Stefanesti, r-nul Floresti</span><br>
+          <b><i class="fas fa-envelope"></i>&nbsp;:&nbsp;</b><span><a href="mailto:liceulteoreticstefanesti@gmail.com">liceulteoreticstefanesti@gmail.com</a></span><br><br>
+          <div class="formular-container">
+            <form id="formular">
+              <h3>Lasa un mesaj</h3>
+              <input type="text" id="nume" placeholder="Nume" required><br>
+              <input type="email" id="email" placeholder="E-mail" required><br>
+              <textarea id="mesaj" rows="4" placeholder="Mesajul" required></textarea><br>
+              <input type="button" value="Transmite" onclick="send()">
+            </form>
+          </div>
+        </div>
+        <div class="col-50">
+          <iframe class="harta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1341.7228917747223!2d28.439755593989386!3d47.734004755963944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e01cd907d5877da!2zTGljZXVsIFRlb3JldGljIMWedGVmxINuZcWfdGk!5e0!3m2!1sro!2s!4v1650288932189!5m2!1sro!2s" 
+          style="border:0;" allowfullscreen="" 
+          loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer>
+      <div>Liceul Teoretic Stefanesti ©</div>
+      <div id="an">2022</div>
+    </footer>
+  </body>
+</html>
